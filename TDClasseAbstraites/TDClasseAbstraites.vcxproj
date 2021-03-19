@@ -139,7 +139,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CFigure.cpp" />
     <ClCompile Include="CRectangle.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
