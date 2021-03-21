@@ -139,10 +139,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CCercle.cpp" />
     <ClCompile Include="CRectangle.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CCercle.h" />
     <ClInclude Include="CFigure.h" />
     <ClInclude Include="CRectangle.h" />
   </ItemGroup>

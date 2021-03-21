@@ -14,9 +14,9 @@ public:
 
 	CRectangle(int x = 0, int y = 0, int l = 0, int h = 0);//constructeur
 
-
-	int aire(int, int) const;//fonction virtuelle
-
+//fonction virtuelle
+	int aire(int, int, int) const;
+	int perimetre(int, int, int) const;
 
 	//mutateurs
 	void Set_m_Largeur(int l);
@@ -26,6 +26,6 @@ public:
 	int Get_m_Largeur();
 	int Get_m_Hauteur();
 
-	virtual ~CRectangle();//Destructeur
+	 //~CRectangle();//Destructeur
 
 };

@@ -7,10 +7,8 @@ protected:
 public:
 
 	//constructeur
-	CFigure(int x = 0, int y = 0)// : m_x(x), m_y(y)
+	CFigure(int x = 0, int y = 0) : m_x(x), m_y(y)
 	{
-		m_x = x;
-		m_y = y;
 	}
 //Assesseurs
 	void Set_m_x(int x)
@@ -34,9 +32,9 @@ public:
 	}
 
 	//fonctions virtuelles pures
-	virtual void dessiner() = 0;
-	virtual int aire() const = 0;
-	virtual int perimetre() = 0;
+	//virtual void dessiner() = 0;
+	virtual int aire(int, int, int) const = 0;
+	virtual int perimetre(int, int, int) const = 0;
 
-	virtual ~CFigure();//destructeur
+	//virtual ~CFigure();//destructeur
 };
